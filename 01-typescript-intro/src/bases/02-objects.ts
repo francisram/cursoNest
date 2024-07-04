@@ -9,7 +9,7 @@ interface Pokemon{
     age?: number
 }
 
-export const pokemon:Pokemon = {
+export const bulbasur:Pokemon = {
     id: 1,
     name:"bulbasul",
 
@@ -19,3 +19,8 @@ export const charmander:Pokemon = {
     id: 0,
     name: ""
 }
+
+export const pokemons:Pokemon[] = [];
+pokemons.push(charmander,bulbasur);
+
+console.log(pokemons);

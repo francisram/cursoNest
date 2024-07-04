@@ -3,7 +3,9 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 //import { name, age } from './bases/01-types.ts';
-import { pokemnIds,pokemon } from './bases/02-objects.ts';
+import { pokemnIds,bulbasur, charmander } from './bases/02-objects.ts';
+import { charmander1 } from './bases/03-classes.ts';
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -14,8 +16,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>Vite + TypeScript</h1>
-    <h1>Hello ${pokemon.name}  </h1>
+    <h1>Hello ${charmander}  </h1>
     <h1>Hello ${pokemnIds.join(',')}  </h1>
+    <h1>Hello ${bulbasur}  </h1>
+    <h1>Hello ${bulbasur}  </h1>
+    <h1>Hello ${charmander1.name}  </h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
