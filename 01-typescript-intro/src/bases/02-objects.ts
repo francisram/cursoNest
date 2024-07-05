@@ -23,4 +23,6 @@ export const charmander:Pokemon = {
 export const pokemons:Pokemon[] = [];
 pokemons.push(charmander,bulbasur);
 
+
+
 console.log(pokemons);
